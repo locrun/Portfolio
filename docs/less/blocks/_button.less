@@ -1,0 +1,37 @@
+.button {
+  display: inline-block;
+  text-shadow: 0 0 10px;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  display: inline-block;
+  padding: 11px 26px 14px;
+  background-color: @blueHeading;
+  border-radius: 60px;
+  border: 1px solid transparent;
+  transition: all 0.4s linear;
+
+  &:hover {
+    border: 1px solid #191970;
+    text-shadow: none;
+    color: #fff;
+    background-color: #191970;
+    box-shadow: 0px 7px 70px -12px rgba(25, 25, 112, 0.8);
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &:active {
+    color: #ffe400;
+    border-color: #fff;
+    box-shadow: none;
+    background-color: transparent;
+  }
+
+  .fa {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+}
