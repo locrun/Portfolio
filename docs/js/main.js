@@ -98,7 +98,7 @@ $(document).ready(function() {
 
     // Navigation
     navigation: true,
-    navigationText: ["</img src=\"img/arrow_left.png\"> ", "</img src=\"img/arrow_right.png\">"],
+    navigationText: ["<img src=\"img/arrow_left.png\"> ", "<img src=\"img/arrow_right.png\">"],
     rewindNav: true,
     scrollPerPage: false,
 
@@ -131,7 +131,7 @@ $(document).ready(function() {
     touchDrag: true,
 
     //Transitions
-    transitionStyle: "fadeUp"
+    transitionStyle: "backSlide"
 
   });
 
