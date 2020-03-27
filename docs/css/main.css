@@ -161,9 +161,7 @@ p {
 }
 .name {
   font-size: 18px;
-}
-.resume {
-  margin-bottom: 20px;
+  color: #000;
 }
 a:hover,
 focus {
@@ -958,6 +956,7 @@ label.error:after {
   text-align: center;
   padding-top: 51px;
   position: relative;
+  z-index: 0;
 }
 @media (min-width: 768px) {
   .header {
