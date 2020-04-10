@@ -162,6 +162,7 @@ p {
 .name {
   font-size: 18px;
   color: #000;
+  margin-bottom: 22px;
 }
 a:hover,
 focus {
@@ -402,6 +403,10 @@ focus {
 }
 .heading--padding-top {
   padding-top: 17px;
+}
+p.skills {
+  line-height: 26px;
+  margin: 0;
 }
 .definition-list {
   margin: 0 0 43px;
