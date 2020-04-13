@@ -450,19 +450,19 @@ p.skills {
   color: #fff;
   display: inline-block;
   padding: 11px 26px 14px;
-  background-color: #0052c2;
+  background-color: #f95b3c;
   border-radius: 60px;
   border: 1px solid transparent;
   -webkit-transition: all 0.4s linear;
   transition: all 0.4s linear;
 }
 .button:hover {
-  border: 1px solid #191970;
+  border: 1px solid #f95b3c;
   text-shadow: none;
   color: #fff;
-  background-color: #191970;
-  -webkit-box-shadow: 0px 7px 70px -12px rgba(25, 25, 112, 0.8);
-          box-shadow: 0px 7px 70px -12px rgba(25, 25, 112, 0.8);
+  background-color: #fd3a3a;
+  -webkit-box-shadow: 0px 7px 70px -12px #f95b3c;
+          box-shadow: 0px 7px 70px -12px #f95b3c;
 }
 .button:hover a {
   text-decoration: none;
