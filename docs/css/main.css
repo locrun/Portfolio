@@ -51,19 +51,19 @@ a.mouse_scroll:focus {
   -moz-animation: mouse-scroll 1s infinite;
 }
 .unu {
-  -webkit-animation-delay: 0.1s;
-  -moz-animation-delay: 0.1s;
+  -webkit-animation-delay: .1s;
+  -moz-animation-delay: .1s;
   -webkit-animation-direction: alternate;
 }
 .doi {
-  -webkit-animation-delay: 0.2s;
-  -moz-animation-delay: 0.2s;
+  -webkit-animation-delay: .2s;
+  -moz-animation-delay: .2s;
   -webkit-animation-direction: alternate;
   margin-top: -6px;
 }
 .trei {
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
+  -webkit-animation-delay: .3s;
+  -moz-animation-delay: .3s;
   -webkit-animation-direction: alternate;
   margin-top: -6px;
 }
@@ -72,7 +72,7 @@ a.mouse_scroll:focus {
   width: 24px;
   border-radius: 14px;
   -webkit-transform: none;
-  transform: none;
+          transform: none;
   border: 2px solid white;
   top: 170px;
   display: none;
@@ -115,7 +115,7 @@ a.mouse_scroll:focus {
     opacity: 0;
   }
   50% {
-    opacity: 0.5;
+    opacity: .5;
   }
   100% {
     opacity: 1;
@@ -126,7 +126,7 @@ a.mouse_scroll:focus {
     opacity: 0;
   }
   50% {
-    opacity: 0.5;
+    opacity: .5;
   }
   100% {
     opacity: 1;
@@ -137,7 +137,6 @@ body {
   height: 100%;
   min-width: 320px;
   color: #fff;
-  overflow-x: hidden;
 }
 html {
   font-size: 10px;
@@ -146,7 +145,7 @@ html {
 body {
   font-size: 1.6rem;
   /* 10px * 1.6 = 16px */
-  font-family: "Noto Sans";
+  font-family: 'Noto Sans';
 }
 p {
   font-size: 14px;
@@ -177,7 +176,7 @@ focus {
 /* Custom, iPhone Retina - adaptive styles bofore 320px */
 .clearfix:before,
 .clearfix:after {
-  content: "";
+  content: '';
   display: table;
 }
 .clearfix:after {
@@ -245,15 +244,15 @@ focus {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-  -ms-flex-direction: column;
-  flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 .navigation ul.navigation__list li {
   margin: 0 0 40px;
@@ -274,10 +273,8 @@ focus {
   }
 }
 .navigation a {
-  color: #fff;
+  color: #FFF;
   text-decoration: none;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
 }
 .navigation a:hover,
 .navigation a:focus,
@@ -299,7 +296,7 @@ focus {
 }
 .user-photo-shadow {
   -webkit-box-shadow: 0px 0px 40px 0px #48779f;
-  box-shadow: 0px 0px 40px 0px #48779f;
+          box-shadow: 0px 0px 40px 0px #48779f;
 }
 .user-photo--big {
   max-width: 100%;
@@ -354,7 +351,7 @@ focus {
 }
 @media (min-width: 1500px) {
   .section--bg-laptop {
-    background-image: url("../img/bg/laptop.png");
+    background-image: url('../img/bg/laptop.png');
   }
 }
 .section--bg-gear {
@@ -363,7 +360,7 @@ focus {
 }
 @media (min-width: 1500px) {
   .section--bg-gear {
-    background-image: url("../img/bg/gear.png");
+    background-image: url('../img/bg/gear.png');
   }
 }
 .section--bg-cloud {
@@ -372,7 +369,7 @@ focus {
 }
 @media (min-width: 1500px) {
   .section--bg-cloud {
-    background-image: url("../img/bg/cloud.png");
+    background-image: url('../img/bg/cloud.png');
   }
 }
 .heading {
@@ -455,7 +452,7 @@ p.skills {
   transition: all 0.4s linear;
   background-color: #fd3a3a;
   -webkit-box-shadow: 0px 7px 70px -12px #f95b3c;
-  box-shadow: 0px 7px 70px -12px #f95b3c;
+          box-shadow: 0px 7px 70px -12px #f95b3c;
 }
 .button:hover {
   border: 1px solid #f95b3c;
@@ -463,7 +460,7 @@ p.skills {
   color: #fff;
   background-color: #f95b3c;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
 }
 .button:hover a {
   text-decoration: none;
@@ -472,7 +469,7 @@ p.skills {
   color: #ffe400;
   border-color: #fff;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   background-color: transparent;
 }
 .button .fa {
@@ -536,7 +533,7 @@ p.skills {
 }
 .filter-block__button {
   display: inline-block;
-  color: #cecece;
+  color: #CECECE;
   padding: 12px 31px 15px;
   cursor: pointer;
 }
@@ -586,7 +583,7 @@ p.skills {
   position: relative;
   display: block;
   margin-bottom: 15px;
-  background-image: url("../img/placeholders/project_placeholder.jpg");
+  background-image: url('../img/placeholders/project_placeholder.jpg');
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -631,7 +628,7 @@ img {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 @media (min-width: 768px) {
   .portfolio-item__image__hover .fa {
@@ -643,7 +640,7 @@ img {
     font-size: 64px;
     position: static;
     -webkit-transform: translate(0%, 0%);
-    transform: translate(0%, 0%);
+            transform: translate(0%, 0%);
   }
 }
 .portfolio-item__image__hover span {
@@ -759,13 +756,13 @@ img {
   }
   .contact-form__bg-pencil:after {
     position: absolute;
-    content: "";
+    content: '';
     left: 75%;
     top: 75%;
     display: block;
     width: 203px;
     height: 153px;
-    background-image: url("../img/bg/pencil.png");
+    background-image: url('../img/bg/pencil.png');
     background-repeat: no-repeat;
     background-position: left top;
     overflow-x: hidden;
@@ -821,7 +818,7 @@ label.error {
   margin-top: 2px;
 }
 label.error:after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 100%;
   left: 40px;
@@ -845,23 +842,23 @@ label.error:after {
   font-size: 20px;
 }
 .cmn-toggle-switch {
-  display: block;
+  font-size: 0;
   position: absolute;
+  z-index: 5;
   top: 23px;
   right: 16px;
+  display: block;
   overflow: hidden;
-  margin: 0;
-  padding: 0;
-  z-index: 5;
   width: 50px;
   height: 45px;
-  font-size: 0;
+  margin: 0;
+  padding: 0;
   text-indent: -9999px;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   -webkit-box-shadow: none;
-  box-shadow: none;
+          box-shadow: none;
   border-radius: none;
   border: none;
   cursor: pointer;
@@ -950,6 +947,7 @@ label.error:after {
   transition-delay: 0, 0.3s;
 }
 .header {
+  position: relative;
   display: table;
   width: 100%;
   height: 390px;
@@ -961,8 +959,6 @@ label.error:after {
   color: #fff;
   text-align: center;
   padding-top: 51px;
-  position: relative;
-  z-index: 0;
 }
 @media (min-width: 768px) {
   .header {
@@ -1029,7 +1025,7 @@ label.error:after {
   }
 }
 .contacts {
-  background-color: #1a2b5e;
+  background-color: #1A2B5E;
   color: #fff;
 }
 .contacts p {
