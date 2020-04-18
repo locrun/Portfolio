@@ -136,8 +136,6 @@ html,
 body {
   height: 100%;
   min-width: 320px;
-  color: #fff;
-  overflow-x: hidden;
 }
 html {
   font-size: 10px;
