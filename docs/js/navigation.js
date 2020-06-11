@@ -6,6 +6,7 @@ $(document).ready(function() {
   var navBlock = $('.navigation__list');
   var navBlockOpen = 'navigation__list--open';
   var navLink = $('.navigation__list a');
+  console.log(navLink)
 
   // События по клику на иконку
   navToggleButton.on('click', function(e) {
@@ -18,6 +19,7 @@ $(document).ready(function() {
   navLink.on('click', function() {
     if (navBlock.hasClass(navBlockOpen)) {
       navButtonToggle();
+      
     }
     navBlock.removeClass(navBlockOpen);
   })

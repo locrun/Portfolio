@@ -5,11 +5,10 @@
   top: 51px;
   left: 0;
   right: 0;
-  
-  @media (min-width: 768px){
+
+  @media (min-width: 768px) {
     position: absolute;
   }
-  
 
   .navigation__toggle {
     display: block;
@@ -18,10 +17,10 @@
     top: 23px;
     right: 16px;
     cursor: pointer;
-    
+
     z-index: 2;
-    
-    @media (min-width: 768px){
+
+    @media (min-width: 768px) {
       display: none;
     }
   }
@@ -29,13 +28,13 @@
   .navigation__toggle--fixed {
     position: fixed;
   }
-  
+
   ul.navigation__list {
     margin: 0;
     padding: 0;
     list-style-type: none;
     text-align: center;
-    
+
     display: none;
     z-index: 1;
     position: fixed;
@@ -43,15 +42,13 @@
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(11,81,136, .95);
-    
-    
-    @media (min-width: 768px){
+    background-color: rgba(11, 81, 136, 0.95);
+
+    @media (min-width: 768px) {
       display: block;
       position: absolute;
       top: 60;
     }
-
 
     &--open {
       display: flex;
@@ -59,7 +56,7 @@
       align-items: center;
       flex-direction: column;
     }
-    
+
     li {
       margin: 0 0 40px;
       padding: 0;
@@ -67,12 +64,12 @@
       margin-left: auto;
       margin-right: auto;
 
-      @media (min-width: 768px){
+      @media (min-width: 768px) {
         margin: 0;
         padding: 0;
         display: inline-block;
         margin-right: 100px;
-        
+
         &:last-child {
           margin-right: 0;
         }
@@ -81,11 +78,30 @@
   }
 
   a {
-    color: #FFF;
+    color: #fff;
+    line-height: 1.2;
     text-decoration: none;
-    
-    &:hover, &:focus, &:active {
-      color:@yellow;
+    cursor: pointer;
+    &:hover,
+    &:focus,
+    &:active {
+      color: @yellow;
+      transition: all 0.3s ease;
+      width: 100%;
     }
+  }
+  a:after {
+    background-color: @yellow;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    -webkit-transition: width 0.3s ease-in-out;
+    -moz--transition: width 0.3s ease-in-out;
+    transition: width 0.3s ease-in-out;
+  }
+  a:hover:after,
+  a:focus:after {
+    width: 100%;
   }
 }

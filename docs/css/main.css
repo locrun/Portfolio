@@ -272,13 +272,32 @@ focus {
   }
 }
 .navigation a {
-  color: #FFF;
+  color: #fff;
+  line-height: 1.2;
   text-decoration: none;
+  cursor: pointer;
 }
 .navigation a:hover,
 .navigation a:focus,
 .navigation a:active {
   color: #ffe400;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+.navigation a:after {
+  background-color: #ffe400;
+  display: block;
+  content: "";
+  height: 2px;
+  width: 0%;
+  -webkit-transition: width 0.3s ease-in-out;
+  -moz--transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+}
+.navigation a:hover:after,
+.navigation a:focus:after {
+  width: 100%;
 }
 .user-photo {
   overflow: hidden;
