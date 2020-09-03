@@ -8,4 +8,4 @@
 * Фильтр карточек в Портфолио
 * Форма обратной связи (Ajax, PHP)
 
-#### <h4>[ONLINE DEMO](https://runarnazmutdinov.github.io/Portfolio/)<h4>
+#### <h4>[Online demo](https://runarnazmutdinov.github.io/Portfolio/)<h4>
