@@ -1,5 +1,5 @@
 # Portfolio
-Учебный проект "Portfolio" от WebCademy.ru. Дизайн (PSD) и верстка (HTML, LESS, jQuery). Сделан во время прохождения курса обучения верстки сайтов в WebCademy.ru
+Учебный проект "Portfolio". Дизайн (PSD) и верстка (HTML, LESS, jQuery)
 ### Что внутри:
 * Оптимизация под десктоп, смартфоны, планшеты. 3 разных разрешения
 * Навигация по странице, плавный page scroll
@@ -8,4 +8,4 @@
 * Фильтр карточек в Портфолио
 * Форма обратной связи (Ajax, PHP)
 
-[онлайн демо](https://runar-web.github.io/Portfolio/)
+#### <h4>[Online demo](https://runarnazmutdinov.github.io/Portfolio/)<h4>
