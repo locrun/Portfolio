@@ -17,7 +17,6 @@
     top: 23px;
     right: 16px;
     cursor: pointer;
-
     z-index: 2;
 
     @media (min-width: 768px) {
@@ -82,6 +81,7 @@
     line-height: 1.2;
     text-decoration: none;
     cursor: pointer;
+    transition: 0.3s ease-in-out;
     &:hover,
     &:focus,
     &:active {
@@ -90,16 +90,18 @@
       width: 100%;
     }
   }
+
   a:after {
     background-color: @yellow;
     display: block;
     content: "";
-    height: 2px;
+    height: 3px;
     width: 0%;
     -webkit-transition: width 0.3s ease-in-out;
     -moz--transition: width 0.3s ease-in-out;
     transition: width 0.3s ease-in-out;
   }
+
   a:hover:after,
   a:focus:after {
     width: 100%;

@@ -312,6 +312,7 @@ focus {
   line-height: 1.2;
   text-decoration: none;
   cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
 .navigation a:hover,
 .navigation a:focus,
@@ -324,7 +325,7 @@ focus {
   background-color: #ffe400;
   display: block;
   content: "";
-  height: 2px;
+  height: 3px;
   width: 0%;
   -webkit-transition: width 0.3s ease-in-out;
   -moz--transition: width 0.3s ease-in-out;
@@ -453,9 +454,19 @@ focus {
 .heading--padding-top {
   padding-top: 17px;
 }
-p.skills {
-  line-height: 26px;
-  margin: 0;
+.list {
+  list-style-type: none;
+  position: relative;
+}
+.list__item:before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/favicons/badge.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 20px;
+  height: 20px;
+  left: -30px;
 }
 .definition-list {
   margin: 0 0 43px;

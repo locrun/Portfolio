@@ -3,7 +3,7 @@
   color: @blueHeading;
   font-weight: 700;
 
-  @media(min-width: 1200px) {
+  @media (min-width: 1200px) {
     font-size: 42px;
   }
 }
@@ -31,7 +31,19 @@
 .heading--padding-top {
   padding-top: 17px;
 }
-p.skills{
-  line-height: 26px;
-  margin: 0;
+
+.list {
+  list-style-type: none;
+  position: relative;
+
+  &__item:before {
+    content: "";
+    position: absolute;
+    background-image: url("../img/favicons/badge.png");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    width: 20px;
+    height: 20px;
+    left: -30px;
+  }
 }
