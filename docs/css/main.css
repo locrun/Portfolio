@@ -512,15 +512,15 @@ focus {
   border-radius: 60px;
   border: 1px solid transparent;
   transition: all 0.4s linear;
-  background-color: #fd3a3a;
-  box-shadow: 0px 7px 70px -12px #f95b3c;
+  background-color: #3ab5fd;
 }
 .button:hover {
-  border: 1px solid #f95b3c;
+  border: 1px solid rgba(3, 92, 216, 0.876);
   text-shadow: none;
   color: #fff;
-  background-color: #f95b3c;
+  background-color: rgba(3, 92, 216, 0.876);
   box-shadow: none;
+  box-shadow: 0px 7px 70px -12px rgba(3, 92, 216, 0.876);
 }
 .button:hover a {
   text-decoration: none;
