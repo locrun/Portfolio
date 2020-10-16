@@ -458,10 +458,16 @@ focus {
   list-style-type: none;
   position: relative;
   font-size: 14px;
+  line-height: 20px;
 }
 @media (min-width: 768px) {
   .list {
     font-size: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .list {
+    line-height: 22px;
   }
 }
 .list__item:before {
@@ -508,7 +514,12 @@ focus {
 }
 .definition-list__desc p {
   margin-bottom: 23px;
-  line-height: 24px;
+  line-height: 20px;
+}
+@media (min-width: 1200px) {
+  .definition-list__desc p {
+    line-height: 22px;
+  }
 }
 .button {
   font-size: 16px;
