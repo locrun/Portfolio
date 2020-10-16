@@ -457,6 +457,12 @@ focus {
 .list {
   list-style-type: none;
   position: relative;
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  .list {
+    font-size: 16px;
+  }
 }
 .list__item:before {
   content: "";
@@ -502,6 +508,7 @@ focus {
 }
 .definition-list__desc p {
   margin-bottom: 23px;
+  line-height: 24px;
 }
 .button {
   font-size: 16px;
@@ -642,7 +649,7 @@ focus {
   position: relative;
   display: block;
   margin-bottom: 15px;
-  background-image: url('../img/placeholders/project_placeholder.jpg');
+  background-image: url("../img/placeholders/project_placeholder.jpg");
   background-repeat: none;
   background-position: center;
   background-size: cover;
@@ -752,9 +759,6 @@ img {
     font-size: 16px;
     line-height: 1.5;
   }
-}
-.skills p {
-  margin: 0;
 }
 .contact-form__input {
   color: #000;

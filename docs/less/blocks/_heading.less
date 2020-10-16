@@ -35,7 +35,11 @@
 .list {
   list-style-type: none;
   position: relative;
+  font-size: 14px;
 
+  @media (min-width: 768px) {
+    font-size: 16px;
+  }
   &__item:before {
     content: "";
     position: absolute;
