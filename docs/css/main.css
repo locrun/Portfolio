@@ -177,6 +177,10 @@ a.mouse_scroll:focus {
     opacity: 1;
   }
 }
+ul {
+  padding: 0;
+  margin: 0;
+}
 html,
 body {
   height: 100%;
