@@ -771,6 +771,22 @@ img {
     line-height: 1.5;
   }
 }
+.social-icons {
+  font-size: 32px;
+  padding-top: 19px;
+  transition: background-size ease 0s;
+}
+.social-icons a {
+  text-decoration: none;
+  border-bottom: none !important;
+}
+.social-icons .fa {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+.social-icons .fa:last-shild {
+  margin-right: 0;
+}
 .contact-form__input {
   color: #000;
   font-size: 18px;
@@ -1089,16 +1105,16 @@ label.error:after {
   }
 }
 .contacts {
-  background-color: #1A2B5E;
+  background-color: #065a97;
   color: #fff;
 }
 .contacts p {
   color: #fff;
 }
 .contacts a {
-  color: #337ab7;
+  color: #fff;
   text-decoration: none;
-  border-bottom: 1px dotted #ffe400;
+  border-bottom: 1px dotted #fff;
   transition: 0.8s ease;
 }
 .contacts a:hover {
@@ -1110,7 +1126,7 @@ label.error:after {
   margin-bottom: 30px;
 }
 .copyright {
-  background-color: #09153c;
+  background-color: #003f6d;
   font-size: 14px;
   line-height: 1.4;
   padding-top: 40px;
