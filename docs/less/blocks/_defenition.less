@@ -36,10 +36,22 @@
   font-size: 16px;
   line-height: 26px;
   font-weight: 400;
+  color: #010101;
 
   @media (min-width: 768px) {
     font-size: 14px;
   }
+  a {
+    text-decoration: underline;
+    color: #010101;
+
+    &:hover {
+      color: #c0c0c0;
+    }
+  }
+}
+.definition-list__desc p:hover {
+  color: #c0c0c0;
 }
 
 .definition-list__desc p {
