@@ -44,25 +44,20 @@
   justify-content: space-between;
   flex-wrap: wrap;
 
+  @media (min-width: 678px) {
+    justify-content: flex-start;
+  }
+
   @media (min-width: 768px) {
     font-size: 16px;
   }
   @media (min-width: 1200px) {
     line-height: 22px;
   }
-  // &__item:before {
-  //   content: "";
-  //   position: absolute;
-  //   background-image: url("../img/favicons/badge.png");
-  //   background-repeat: no-repeat;
-  //   background-size: 20px 20px;
-  //   width: 20px;
-  //   height: 20px;
-  //   left: -30px;
-  // }
 }
 .list__item p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-right: 15px;
 }
