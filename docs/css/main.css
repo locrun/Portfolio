@@ -489,7 +489,11 @@ focus {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-right: 15px;
+}
+@media (min-width: 395px) {
+  .list__item p {
+    margin-right: 15px;
+  }
 }
 .definition-list {
   padding: 0;
