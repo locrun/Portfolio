@@ -1,5 +1,5 @@
-.contact-form {}
-
+.contact-form {
+}
 
 .contact-form__input {
   color: #000;
@@ -10,18 +10,15 @@
   padding: 10px 19px;
   border: none;
   border-radius: 8px;
-  background-color: #a2d1f4;
+  background-color: #fff;
   border: 3px solid #fff;
   transition: border-color 0.3s ease-in;
   outline: none;
-
-
 
   &:hover,
   &:active,
   &:focus {
     border: 3px solid rgb(162, 209, 244);
-
   }
 }
 
@@ -45,39 +42,35 @@
   padding: 10px 19px;
   border: none;
   border-radius: 8px;
-  background-color: #a2d1f4;
+  background-color: #fff;
   border: 3px solid #fff;
   transition: border-color 0.3s ease-in;
   outline: none;
-
 
   &:hover,
   &:active,
   &:focus {
     border: 3px solid rgb(162, 209, 244);
   }
-
 }
 
-@media(min-width:1200px) {
+@media (min-width: 1200px) {
   .contact-form__bg-pencil {
     position: relative;
 
-
     &:after {
       position: absolute;
-      content: '';
+      content: "";
       left: 75%;
       top: 75%;
       display: block;
       width: 203px;
       height: 153px;
-      background-image: url('../img/bg/pencil.png');
+      background-image: url("../img/bg/pencil.png");
       background-repeat: no-repeat;
       background-position: left top;
       overflow-x: hidden;
     }
-
   }
 }
 
@@ -94,16 +87,13 @@
   transition: all 0.3s ease-in;
   outline: none;
 
-
-
-  @media(min-width: 768px) {
+  @media (min-width: 768px) {
     font-size: 20px;
     display: inline-block;
     width: auto;
-
   }
 
-  @media(min-width:1200px) {
+  @media (min-width: 1200px) {
     font-size: 22px;
     width: auto;
   }
@@ -113,17 +103,13 @@
     color: #065a97;
     background-color: #fff;
     border-color: #a2d1f4;
-
-
   }
 
   &:active {
     color: #ffe400;
     border-color: #ffe400;
     background-color: transparent;
-
   }
-
 }
 
 label.error {
@@ -140,7 +126,7 @@ label.error {
   @cornerSize: 12px;
 
   &:after {
-    content: '';
+    content: "";
     position: absolute;
     bottom: 100%;
     left: 40px;
@@ -151,7 +137,6 @@ label.error {
     border-bottom: @cornerSize solid #ad1457;
     border-right: @cornerSize solid transparent;
     border-left: @cornerSize solid transparent;
-
   }
 }
 

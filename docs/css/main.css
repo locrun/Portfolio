@@ -836,7 +836,7 @@ img {
   padding: 10px 19px;
   border: none;
   border-radius: 8px;
-  background-color: #a2d1f4;
+  background-color: #fff;
   border: 3px solid #fff;
   transition: border-color 0.3s ease-in;
   outline: none;
@@ -864,7 +864,7 @@ img {
   padding: 10px 19px;
   border: none;
   border-radius: 8px;
-  background-color: #a2d1f4;
+  background-color: #fff;
   border: 3px solid #fff;
   transition: border-color 0.3s ease-in;
   outline: none;
@@ -880,13 +880,13 @@ img {
   }
   .contact-form__bg-pencil:after {
     position: absolute;
-    content: '';
+    content: "";
     left: 75%;
     top: 75%;
     display: block;
     width: 203px;
     height: 153px;
-    background-image: url('../img/bg/pencil.png');
+    background-image: url("../img/bg/pencil.png");
     background-repeat: no-repeat;
     background-position: left top;
     overflow-x: hidden;
@@ -941,7 +941,7 @@ label.error {
   margin-top: 2px;
 }
 label.error:after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 100%;
   left: 40px;
