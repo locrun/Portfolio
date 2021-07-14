@@ -817,11 +817,11 @@ img {
   }
 }
 .social-icons a {
+  margin-right: 20px;
   text-decoration: none;
   border-bottom: none !important;
 }
 .social-icons .fa {
-  margin-right: 30px;
   margin-bottom: 20px;
 }
 .social-icons .fa:last-shild {
